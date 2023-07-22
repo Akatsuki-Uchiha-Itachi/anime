@@ -1,0 +1,42 @@
+.container-popular{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.container-anime{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.card-view{
+ 
+    flex-basis: 15%;
+
+}
+
+.card{
+    flex: 1;
+    width: calc(20%-20px);
+
+}
+
+.card-title{
+    font-weight:200;
+}
+
+.img-anime{
+    width: 255px;
+    height: 355px;
+}
+
+
+.characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as per your layout requirements */
+    gap: 20px; /* Adjust the gap between cards */
+  }
